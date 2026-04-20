@@ -1,0 +1,20 @@
+{
+  "include": [
+    "backend/apps",
+    "backend/config",
+    "backend/manage.py"
+  ],
+  "exclude": [
+    "**/venv",
+    "**/.venv",
+    "**/__pycache__",
+    "frontend/build",
+    "frontend/.dart_tool"
+  ],
+  "extraPaths": [
+    "backend"
+  ],
+  "venvPath": "backend",
+  "venv": "venv",
+  "typeCheckingMode": "basic"
+}
