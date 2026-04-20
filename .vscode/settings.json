@@ -1,15 +1,15 @@
 {
   "python.defaultInterpreterPath": "${workspaceFolder}/backend/venv/bin/python",
-  "python.analysis.diagnosticMode": "openFilesOnly",
-  "python.analysis.exclude": [
-    "**/venv/**",
-    "**/.venv/**",
-    "**/build/**",
-    "backend/venv/**",
-    "frontend/build/**"
-  ],
   "python.analysis.extraPaths": [
     "${workspaceFolder}/backend"
   ],
+  "python.analysis.exclude": [
+    "**/venv/**",
+    "**/.venv/**",
+    "**/__pycache__/**",
+    "frontend/build/**",
+    "frontend/.dart_tool/**"
+  ],
+  "python.analysis.diagnosticMode": "openFilesOnly",
   "python.analysis.typeCheckingMode": "basic"
 }
